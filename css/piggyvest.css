@@ -1,0 +1,103 @@
+.content{
+    background-color: rgb(205, 216, 236);
+    width: 70%;
+    margin: auto;
+}
+header h1{
+    color: darkblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 900;
+}
+.main{
+    background-color :white;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.main h2{
+    color: darkblue;
+}
+.submit{
+    background-color: darkblue;
+    font-weight: bolder;
+    width: 300px;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman';
+}
+.options{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 50px;
+    border: 10px;
+    text-align: center;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman';
+}
+.piggyvest{
+    margin-top: 40px;
+    margin-left: 80px;
+    float: left;
+}
+.header2{
+    line-height: 5px;
+}
+.header2 h2{
+    padding-left: 20px;
+}
+#form{
+    display: table;
+    font-weight: bolder;
+    border: 10px;
+    line-height: 50px;
+}
+.row{
+    display: table-row;
+}
+.row label{
+    display: table-cell;
+    padding: 10px;
+}
+.row textarea{
+    display: table-cell;
+    padding: 10px;
+}
+textarea{
+    border: none;
+    background-color: whitesmoke;
+}
+@media(max-width:600px){
+    .content{
+        margin: 0px;
+        width:auto;
+    }
+    .piggyvest{
+    margin-top: 40px;
+    margin-left: 50px;
+    float: left;
+    }
+    .header2{
+        width: auto;
+        margin: 0px;
+        text-align: center;
+        font-size: small;
+    }
+    .row label{
+    display: table-cell;
+    padding: 10px;
+    display: block;
+}
+.row input{
+    display: table-cell;
+    padding: 10px;
+    display: block;
+}
+}
