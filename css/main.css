@@ -77,5 +77,8 @@ label{
     body{
         background: rgb(205, 216, 236);
     }
+    .head{
+        font-size: smaller;
+    }
 }
 
