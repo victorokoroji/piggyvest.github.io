@@ -3,62 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>piggyvest.com</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <title>Piggyvest.com</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="content">
-        <header>
-            <img src="piggyvest.jpg" alt="piggyvest" height="80" width="80" class="piggyvest">
-            <h1> piggyvest</h1>
-        </header> 
-        <div class="main">
-            <div class="header2">
+    <header>
+        <div class="piggy_img">
+            <img src="piggyvest.JPG" alt="piggyvest" srcset="" height="70" width="70">
+            <h1> Piggyvest</h1>
+        </div>
+    </header>
+        <div class="container">
+            <div class="head">
                 <h2>Create a Secure Account</h2>
                 <p>Welcome to the future of savings and investment</p>
             </div>
-            <form action="" method="" id="form">
-                    <div class="row">
-                        <label for="Full Name"> Full Name</label>
-                        <textarea name="Full Name" id="Full Name" cols="35" rows="3" 
-                        placeholder="Full Name"></textarea>
-                    </div>
-                    <div class="row">
-                        <label for="Email Address"> Email Address</label>
-                        <textarea name="Email Address" id="Email Address" cols="35" rows="3"
-                        placeholder="Email Address"
-                        inputmode="email"></textarea>
-                    </div>
-                    <div class="row">
-                        <label for="Phone Number"> Phone Number</label>
-                        <textarea name="Phone Number" id="Phone Number" cols="35" rows="3"
-                        placeholder="Phone Number"
-                        inputmode="tel"></textarea>
-                    </div>
-                    <div class="row">
-                        <label for="Password"> Password</label>
-                        <textarea name="Password" id="Password" cols="35" rows="3"
-                        placeholder="Password"
-                        inputmode="numeric"></textarea>
-                    </div>
-                    <div class="row">
-                        <label for="Referrer Phone or Promo Code (optional)"> Referrer Phone or Promo Code <br> (optional)</label>
-                        <textarea name="Referrer Phone or Promo Code (optional)" id="Referrer Phone or Promo Code (optional" cols="35" rows="3"
-                        placeholder="Referrer Phone or Promo Code"></textarea>
-                    </div>
-                    <div class="row">
-                        <label for="How Did You Hear About Us?  (optional)"> How Did You Hear About Us? <br> (optional)</label>
-                        <select class="options">
-                            <option value="click to select"> click to select</option>
-                            <option value="Facebook"> Facebook</option>
-                            <option value="Instagram"> Instagram</option>
-                            <option value="Tweeter"> Tweeter</option>
-                            <option value="Youtube"> Youtube</option>
-                        </select> <br><br>
-                        <input type="submit" value="Create Account" class="submit" height="500" width="500">
-                    </div>
-            </form>
+            <form action="" class="forms">
+                <div class="row">
+                    <label for="Full Name"> Full Name</label><br>
+                    <input type="text" id="Full Name"  placeholder="Full Name" required><br><br><br>
+                </div>
+                <div class="row">
+                    <label for="Email Address"> Email Address</label><br>
+                    <input type="text" id="Email Address"  placeholder="Email Address" inputmode="email" required><br><br><br>
+                </div>
+                <div class="row">
+                    <label for="Phone Number"> Phone Number</label><br>
+                    <input type="text" id="Phone Number"  cols="35" rows="3" placeholder="Phone Number" inputmode="tel" required><br><br><br>
+                </div>
+                <div class="row">
+                    <label for="Password"> Password</label><br>
+                    <input type="text" id="Password"  cols="35" rows="3" placeholder="Password" inputmode="numeric" required><br><br><br>
+                </div>
+                <div class="row">
+                    <label for="Referrer Phone or Promo Code (optional)"> Referrer Phone or Promo Code <br> (optional)</label><br>
+                    <input type="text" id="Referrer Phone or Promo Code (optional)" cols="35" rows="3" placeholder="Referrer Phone or Promo Code"><br><br><br>
+                </div>
+                <div class="row">
+                    <label for="How Did You Hear About Us?  (optional)"> How Did You Hear About Us? <br> (optional)</label><br>
+                    <select class="options" id="How Did You Hear About Us?  (optional)">
+                        <option value="click to select"> click to select</option>
+                        <option value="Facebook"> Facebook</option>
+                        <option value="Instagram"> Instagram</option>
+                        <option value="Tweeter"> Tweeter</option>
+                        <option value="Youtube"> Youtube</option>
+                        <option value="At an Event"> At an Event</option>
+                        <option value="Local Newspaper"> Local Newspaper</option>
+                        <option value="Online Blog"> Online Blog</option>
+                        <option value="Google search"> Google search</option>
+                        <option value="Other"> Other</option>
+                    </select><br><br>
+                    <input type="submit" value="Create Account" height="500" width="500" class="submit"> 
+             </form>
+    </body>
+    </html>
         </div>
-    </div>
-</body>
-</html>
+        
