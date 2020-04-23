@@ -1,103 +1,81 @@
-.content{
-    background-color: rgb(205, 216, 236);
-    width: 70%;
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+body{
+    background: linear-gradient(to left, white , blue);
+    margin: 0px;
+    
+}
+ header{
+    flex: 20%;
+} 
+.piggy_img{
+    display: flex;
+    padding: 10px;
+    padding-right: 0px;
+    justify-content: center;
+}
+.piggy_img h1{
+    color: navy;
+    font-family: sans-serif;
+}
+ .container{
+    flex: 80%;
+} 
+.container{
     margin: auto;
-}
-header h1{
-    color: darkblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: xx-large;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    font-weight: 900;
-}
-.main{
-    background-color :white;
+    background-color: white;
     border-radius: 10px;
-    padding-top: 30px;
-    padding-left: 30px;
+    padding: 10px;
+    padding-bottom: 30px; 
+    border-bottom-left-radius: 0px; 
 }
-.main h2{
-    color: darkblue;
+.container h2{
+    color: navy;
+}
+.head{
+    padding-top: 20px;
+    text-align: center;
+    line-height: 1.5px;
+    padding-bottom: 30px;
+}
+.bottom{
+    background-color: navy;
+}
+.forms{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .submit{
-    background-color: darkblue;
-    font-weight: bolder;
-    width: 300px;
-    height: 50px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    text-align: center;
+    background: navy;
     color: white;
-    font-family: Arial, Helvetica, sans-serif, 'Times New Roman';
-}
-.options{
-    background-color: whitesmoke;
-    width: 300px;
+    font-size: larger;
     height: 50px;
-    border: 10px;
-    text-align: center;
-    color:black;
-    font-family: Arial, Helvetica, sans-serif, 'Times New Roman';
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
-.piggyvest{
-    margin-top: 40px;
-    margin-left: 80px;
-    float: left;
-}
-.header2{
-    line-height: 5px;
-}
-.header2 h2{
-    padding-left: 20px;
-}
-#form{
-    display: table;
-    font-weight: bolder;
-    border: 10px;
-    line-height: 50px;
-}
-.row{
-    display: table-row;
-}
-.row label{
-    display: table-cell;
-    padding: 10px;
-}
-.row textarea{
-    display: table-cell;
-    padding: 10px;
-}
-textarea{
-    border: none;
+input, select{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
     background-color: whitesmoke;
 }
-@media(max-width:600px){
-    .content{
+header{
+    padding-bottom: 30px;
+}
+label{
+    font-weight: bold;
+}
+@media(max-width:450px){
+    .container{
         margin: 0px;
-        width:auto;
     }
-    .piggyvest{
-    margin-top: 40px;
-    margin-left: 50px;
-    float: left;
+    body{
+        background: rgb(205, 216, 236);
     }
-    .header2{
-        width: auto;
-        margin: 0px;
-        text-align: center;
-        font-size: small;
-    }
-    .row label{
-    display: table-cell;
-    padding: 10px;
-    display: block;
 }
-.row input{
-    display: table-cell;
-    padding: 10px;
-    display: block;
-}
-}
+
