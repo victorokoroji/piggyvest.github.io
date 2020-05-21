@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="piggy_img">
+            <img src="piggyvest.JPG" alt="piggyvest" srcset="" height="70" width="70">
+            <h1> Piggyvest</h1>
+        </div>
+    </header>
+        <div class="container">
+            <div class="head">
+                <h2>Your Account Is Secure With Us</h2>
+                <p>Welcome to the future of savings and investment</p>
+            </div>
+            <form action="message.html" method="POST" class="forms" onsubmit="return validateField()">
+                <div class="row">
+                    <label for="Email Address or Phone Number"> Email Address or Phone Number </label><br>
+                    <input type="text" id="Email Address or Phone Number"  placeholder="Email Address or Phone Number" inputmode="email/tel" required><br><br><br>
+                </div>
+                <div>
+                    <label for="Password"> Password</label><br>
+                    <input type="password" id="Password" placeholder="Password" inputmode="numeric"><br>
+                    <label id="label">incorrect password</label><br><br>
+                </div>
+                    <input type="submit" value="Log in" height="500" width="500" class="submit"> 
+            </form>
+            </div>
+             <footer>
+                 <p>I don't have an Account? <a href="piggy.html" style="text-decoration: none;">Create an Account</a></p>
+             </footer>
+        </div>
+            <script src="java.js"></script>
+    </body>
+    </html>
+        
