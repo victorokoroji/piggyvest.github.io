@@ -16,6 +16,6 @@ function validateField(){
         return false;
     }
     else{
-        return true
+        return true;
     }
 }
