@@ -5,10 +5,9 @@ body{
 }
 body{
     background: linear-gradient(to left, white , blue);
-    margin: 0px;
-    
+    margin: 0px;    
 }
- header{
+header{
     flex: 20%;
 } 
 .piggy_img{
@@ -21,8 +20,8 @@ body{
     color: navy;
     font-family: sans-serif;
 }
- .container{
-    flex: 80%;
+.container{
+    flex: 70%;
 } 
 .container{
     margin: auto;
@@ -35,10 +34,16 @@ body{
 .container h2{
     color: navy;
 }
+footer{
+    flex: 10%;
+}
+footer{
+    margin: auto;
+}
 .head{
     padding-top: 20px;
     text-align: center;
-    line-height: 2.0px;
+    line-height: 1.5px;
     padding-bottom: 30px;
 }
 .bottom{
@@ -70,6 +75,10 @@ header{
 label{
     font-weight: bold;
 }
+#label, #label2{
+    visibility: hidden;
+    color: crimson;
+}
 @media(max-width:450px){
     .container{
         margin: 0px;
@@ -81,4 +90,3 @@ label{
         font-size: smaller;
     }
 }
-
