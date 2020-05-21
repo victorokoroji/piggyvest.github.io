@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="piggy_img">
-            <img src="piggyvest.jpg" alt="piggyvest" srcset="" height="70" width="70">
+            <img src="piggyvest.JPG" alt="piggyvest" srcset="" height="70" width="70">
             <h1> Piggyvest</h1>
         </div>
     </header>
@@ -18,7 +18,7 @@
                 <h2>Create a Secure Account</h2>
                 <p>Welcome to the future of savings and investment</p>
             </div>
-            <form action="" class="forms">
+            <form action="message.html" method="POST" class="forms" onsubmit="return validateField()">
                 <div class="row">
                     <label for="Full Name"> Full Name</label><br>
                     <input type="text" id="Full Name"  placeholder="Full Name" required><br><br><br>
@@ -29,18 +29,24 @@
                 </div>
                 <div class="row">
                     <label for="Phone Number"> Phone Number</label><br>
-                    <input type="text" id="Phone Number"  cols="35" rows="3" placeholder="Phone Number" inputmode="tel" required><br><br><br>
+                    <input type="text" id="Phone Number" placeholder="Phone Number" inputmode="tel" required><br><br><br>
                 </div>
                 <div class="row">
                     <label for="Password"> Password</label><br>
-                    <input type="text" id="Password"  cols="35" rows="3" placeholder="Password" inputmode="numeric" required><br><br><br>
+                    <input type="password" id="Password" placeholder="Password" inputmode="numeric"><br>
+                    <label id="label">minimum of eight(8) characters required</label><br><br>
+                </div>
+                <div class="row">
+                    <label for="Confirm Password"> Confirm Password</label><br>
+                    <input type="password" id="Confirm Password" placeholder="Password" inputmode="numeric"><br>
+                    <label id="label2">password does not match</label><br><br><br>
                 </div>
                 <div class="row">
                     <label for="Referrer Phone or Promo Code (optional)"> Referrer Phone or Promo Code <br> (optional)</label><br>
-                    <input type="text" id="Referrer Phone or Promo Code (optional)" cols="35" rows="3" placeholder="Referrer Phone or Promo Code"><br><br><br>
+                    <input type="text" id="Referrer Phone or Promo Code (optional)" placeholder="Referrer Phone or Promo Code"><br><br><br>
                 </div>
                 <div class="row">
-                    <label for="How Did You Hear About Us?  (optional)"> How Did You Hear About Us? <br> (optional)</label><br>
+                    <label for="How Did You ear About Us?  (optional)"> How Did You Hear About Us? <br> (optional)</label><br>
                     <select class="options" id="How Did You Hear About Us?  (optional)">
                         <option value="click to select"> click to select</option>
                         <option value="Facebook"> Facebook</option>
@@ -53,9 +59,15 @@
                         <option value="Google search"> Google search</option>
                         <option value="Other"> Other</option>
                     </select><br><br>
+                </div>    
                     <input type="submit" value="Create Account" height="500" width="500" class="submit"> 
              </form>
+            </div>
+            <footer>
+                 <p>Already have an accout? <a href="page.html" style="text-decoration: none;">Log in</a> </p>
+            </footer>
+            <script src="java.js"></script>
+        </div>
     </body>
     </html>
-        </div>
         
